@@ -24,7 +24,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Path to LibreOffice 'soffice' executable
-SOFFICE_PATH = 'C:\\Program Files\\LibreOffice\\program\\soffice.exe'  # Update this path as needed
+SOFFICE_PATH = '/usr/local/bin/soffice.exe'  # Update this path as needed
 
 def generate_cover_letter(context):
     today_date = datetime.datetime.today().strftime('%B %d, %Y')
